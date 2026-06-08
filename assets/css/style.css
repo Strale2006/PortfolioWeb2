@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(../img/CODE_BG_TEST.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    width: 95%;
+    background-color: #fff;
+    min-height: 80px;
+    justify-self: center;
+    margin-top: 20px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.logo a{
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 14px;
+    background: #65b1cf;
+    text-align: center;
+    background: linear-gradient(180deg,rgba(101, 177, 207, 1) 0%, rgba(87, 199, 133, 1) 50%);
+}
+
+.logo h3{
+    font-size: 24px;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+main{
+    padding: 180px 0;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+    width: 80%;
+    color: #f6f6f6;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.predstavljanje{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.predstavljanje h1{
+    font-size: 55px;
+    font-weight: 700;
+}

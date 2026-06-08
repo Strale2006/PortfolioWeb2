@@ -1,0 +1,48 @@
+@media (max-width: 992px){
+
+}
+
+/* tablet */
+@media (max-width: 768px){
+
+}
+
+/* telefon */
+@media (max-width: 576px){
+    header{
+        padding: 0 20px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .logo a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 12px;
+        padding: 12px;
+        background: #65b1cf;
+        background: linear-gradient(180deg,rgba(101, 177, 207, 1) 0%, rgba(87, 199, 133, 1) 50%);
+    }
+
+    .logo h3{
+        font-size: 20px;
+    }
+
+    .hero{
+        padding: 0;
+    }
+
+    .predstavljanje{
+        width: 100%;
+        padding: 0;
+    }
+
+    .predstavljanje h1{
+        font-size: 36px;
+    }
+}
