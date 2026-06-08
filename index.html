@@ -1,9 +1,10 @@
-<!doctype html>
+<!Doctype html>
 <html lang="sr">
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Portfolio - Strahinja Popović</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
@@ -47,16 +48,82 @@
     </header>
     <main>
         <div class="hero" id="pocetna" >
-            <div class="predstavljanje">
-                <h1>Zdravo, ja sam Strahinja Popović.</h1>
-                <p>
-                    Fullstack developer iz Srbije.
-                    Pravim moderne web i mobilne aplikacije koristeci MERN stack i druge moderne tehnologije.
-                </p>
+            <div class="hero-gornji-deo">
+                <div class="predstavljanje">
+                    <h1>Zdravo, ja sam Strahinja Popović.</h1>
+                    <p>
+                        Fullstack developer iz Srbije.
+                        Razvijam moderne web i mobilne aplikacije koje koriste na hiljade korisnika,
+                        sa fokusom na performanse,
+                        korisničko iskustvo i kvalitetan kod.
+                    </p>
+
+                    <a href="#kontakt">
+                        <button>Kontakt</button>
+                    </a>
+
+                </div>
+                <div class="kartica-koda">
+                    <div class="ime-fajla">
+                        <div class="naslov-editor">profil.ts</div>
+                    </div>
+
+                    <div class="kartica-objekat">
+                    <pre><code><span class="konstanta">const</span> <span class="polje">developer</span> = {
+                          <span class="polje">ime</span>: <span class="string">"Strahinja Popović"</span>,
+                          <span class="polje">pozicija</span>: <span class="string">"Fullstack Web Developer"</span>,
+                          <span class="polje">lokacija</span>: <span class="string">"Srbija"</span>,
+                          <span class="polje">trenutniProjekat</span>: <span class="string">"Mobilna Kviz Aplikacija"</span>
+                    };</code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-statistika">
+                <div class="statistika-kartica">
+                    <i class="bi bi-building-check"></i>
+                    <div>
+                        <p>Ukupno Projekata</p>
+                        <h4>8+</h4>
+                    </div>
+                </div>
+                <div class="statistika-kartica">
+                    <i class="bi bi-braces"></i>
+                    <div>
+                        <p>Modernih Tehnologija</p>
+                        <h4>10+</h4>
+                    </div>
+                </div>
+                <div class="statistika-kartica">
+                    <i class="bi bi-browser-safari"></i>
+                    <div>
+                        <p>Mesecnih Poseta</p>
+                        <h4>1M+</h4>
+                    </div>
+                </div>
+                <div class="statistika-kartica">
+                    <i class="bi bi-phone"></i>
+                    <div>
+                        <p>Instalacija(Aplikacije)</p>
+                        <h4>10K+</h4>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="o-meni" id="o-meni">
+            <h2>O Meni</h2>
+            <div class="o-meni-info">
+                <img src="assets/img/Autor.jpg" alt="Strahinja">
+                <p>
+                    Programiranjem sam počeo da se bavim iz radoznalosti, a vremenom je ono preraslo u oblast kojoj danas
+                    posvećujem najveći deo svog vremena. Posebno me privlači razvoj modernih web i mobilnih aplikacija,
+                    gde mogu da spojim kreativnost, logiku i rešavanje stvarnih problema. Najviše iskustva imam sa JavaScript
+                    ekosistemom i MERN stack tehnologijama, ali volim da istražujem i učim nove alate kada projekat to zahteva.
+                    Tokom rada učestvovao sam u razvoju više različitih projekata, od streaming platformi i mobilnih aplikacija
+                    do forum sistema i alata za automatizaciju. Pored programiranja, redovno treniram kalisteniku, pratim sport
+                    i uživam u radu na novim idejama koje mi omogućavaju da konstantno unapređujem svoje znanje i veštine.
 
+                </p>
+            </div>
         </div>
     </main>
 

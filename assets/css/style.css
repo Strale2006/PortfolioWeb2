@@ -28,6 +28,7 @@ header{
     justify-content: space-between;
     padding: 0 40px;
     position: fixed;
+    z-index: 1000;
 }
 
 .logo{
@@ -65,7 +66,7 @@ main{
 
 .hero{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 80px 80px;
     width: 80%;
     color: #f6f6f6;
@@ -73,14 +74,159 @@ main{
     margin: auto;
 }
 
+.hero-gornji-deo{
+    display: flex;
+    justify-content: space-between;
+}
+
 .predstavljanje{
     display: flex;
     flex-direction: column;
     width: 50%;
     padding-left: 80px;
+    gap: 20px;
 }
 
 .predstavljanje h1{
     font-size: 55px;
     font-weight: 700;
+}
+
+.predstavljanje button{
+    background-color: rgb(97, 95, 257);
+    color: #fff;
+    border-radius: 12px;
+    width: 180px;
+    height: 55px;
+    font-size: 18px;
+    border: 2px solid rgb(97, 95, 257);
+    transition: 0.3s;
+}
+
+
+.predstavljanje button:hover{
+    background-color: #fff;
+    color: rgb(97, 95, 257);
+    border-radius: 16px;
+}
+
+
+.kartica-koda {
+    width: 100%;
+    max-width: 450px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.ime-fajla {
+    background-color: #252526;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.ime-fajla .naslov-editor {
+    color: #858585;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.kartica-objekat {
+    padding: 18px;
+}
+
+.kartica-objekat pre {
+    white-space: pre-line;
+}
+
+.kartica-objekat code {
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+.konstanta {
+    color: #569cd6;
+}
+.polje {
+    color: #9cdcfe;
+}
+.string {
+    color: #ce9178;
+}
+
+.hero-statistika{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-top: 80px;
+    gap: 30px;
+}
+
+.statistika-kartica{
+    display: flex;
+    padding: 22px;
+    border-radius: 10px;
+    gap: 20px;
+    background-color: rgb(30, 41, 57, 0.9);
+    border: 1px solid #569cd6;
+    align-items: center;
+}
+
+.statistika-kartica i{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgb(97, 95, 257);
+    text-align: center;
+}
+
+.statistika-kartica p{
+    color: #99a1af;
+    margin: 0;
+}
+
+.o-meni{
+    width: 100%;
+    background-color: #002437;
+    min-height: 400px;
+    border-top: 3px solid #569cd6;
+    border-bottom: 3px solid #569cd6;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.o-meni h2{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.o-meni-info{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 180px;
+}
+
+.o-meni-info p{
+    max-width: 40%;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.o-meni-info img{
+    border-radius: 12px;
+    border: 3px solid #569cd6;
 }
