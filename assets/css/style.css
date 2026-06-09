@@ -58,6 +58,11 @@ header{
 
 .nav-link{
     font-size: 18px;
+    transition: 0.2s;
+}
+
+.nav-link:hover{
+    color: rgb(97, 95, 257) !important;
 }
 
 main{
@@ -101,15 +106,21 @@ main{
     font-size: 18px;
     border: 2px solid rgb(97, 95, 257);
     transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
 
+.predstavljanje a{
+    text-decoration: none;
+}
 
 .predstavljanje button:hover{
     background-color: #fff;
     color: rgb(97, 95, 257);
     border-radius: 16px;
 }
-
 
 .kartica-koda {
     width: 100%;
@@ -229,4 +240,40 @@ main{
 .o-meni-info img{
     border-radius: 12px;
     border: 3px solid #569cd6;
+}
+
+.obrazovanje{
+    width: 100%;
+    min-height: 400px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.obrazovanje h2{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.obrazovanje-info{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 180px;
+}
+
+.obr-kartica{
+    width: 400px;
+    padding: 22px;
+    border-radius: 12px;
+    background-color: rgb(30, 41, 57, 0.9);
+    border: 1px solid #569cd6;
+    color: #fff;
+}
+
+.card-body{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
