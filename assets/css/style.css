@@ -326,6 +326,13 @@ main{
     height: 200px;
 }
 
+.vestina:hover{
+    transform: translateY(-8px);
+    border-color: #569cd6;
+    box-shadow:
+            0 10px 30px rgba(231, 231, 231, 0.25)
+}
+
 .vestina svg{
     width:45px;
     height:45px;
