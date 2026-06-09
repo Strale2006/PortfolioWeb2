@@ -88,7 +88,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-left: 80px;
+    /*padding-left: 80px;*/
     gap: 20px;
 }
 
@@ -241,6 +241,7 @@ main{
     border-radius: 12px;
     border: 3px solid #569cd6;
     width: 300px;
+    max-height: 430px;
 }
 
 .obrazovanje{
@@ -271,7 +272,14 @@ main{
     background-color: rgb(30, 41, 57, 0.9);
     border: 1px solid #569cd6;
     color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px 20px;}
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 20px 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.obr-kartica:hover{
+    background-color: rgb(97, 95, 257);
+    transform: translateY(-20px);
+}
 
 .card-body{
     gap: 20px;

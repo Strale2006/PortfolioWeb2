@@ -44,10 +44,48 @@
     }
 
     .predstavljanje h1{
-        font-size: 32px;
+        font-size: 40px;
     }
 
     .kartica-objekat code {
         font-size: 13px;
+    }
+
+    .hero-gornji-deo{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-statistika{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .statistika-kartica{
+        width: 100%;
+    }
+
+    .statistika-kartica i{
+        font-size: 32px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .o-meni-info{
+        flex-direction: column;
+        padding: 30px;
+        align-items: center;
+        gap: 0;
+    }
+
+    .o-meni-info p{
+        max-width: 80%;
+    }
+
+    .obrazovanje-info{
+        flex-direction: column;
+        padding: 30px;
+        align-items: center;
+        gap: 40px;
     }
 }
