@@ -298,9 +298,17 @@
         margin: auto;
     }
 
+    .kontakt-info{
+        margin: auto;
+        max-width: 100%;
+    }
+
     .container{
         padding: 0;
     }
 
+    .kontakt p{
+        max-width: 80%;
+    }
 
 }
