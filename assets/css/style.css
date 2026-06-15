@@ -67,7 +67,7 @@ header{
 }
 
 main{
-    padding: 180px 0;
+    padding: 180px 0 60px 0;
 }
 
 .hero{
@@ -470,3 +470,176 @@ main{
 .projekat-link a{
     text-decoration: none;
 }
+
+.kontakt h2{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.kontakt p{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.kontakt-sadrzaj{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.kontakt-info{
+    display: flex;
+    flex-direction: column;
+    background: rgba(30,41,57,.85);
+    backdrop-filter: blur(10px);
+    border:1px solid rgba(86,156,214,.25);
+    overflow:hidden;
+    border-radius:18px;
+    padding: 40px;
+    gap: 20px;
+    height: 100%;
+}
+
+.kontakt-info h4{
+    font-weight: 700;
+}
+
+.info-podatak{
+    background: rgba(255, 255, 255, .08);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 18px;
+    padding: 20px;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.info-podatak:hover{
+    transform: translateY(-8px);
+    border: 1px solid #569cd6;
+}
+
+.info-podatak h5{
+    font-size: 18px;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+.info-podatak p{
+    margin: 0;
+    padding: 0;
+    color: #99a1af;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.info-ikonica{
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #615ffe;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-ikonica i{
+    color: #fff;
+    font-size: 18px;
+}
+
+.info-drustvene{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kontakt-forma{
+    background: rgba(30,41,57,.85);
+    backdrop-filter: blur(10px);
+    border:1px solid rgba(86,156,214,.25);
+    overflow:hidden;
+    border-radius:18px;
+    padding: 40px;
+    gap: 20px;
+}
+
+.kontakt-forma h4{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.kontakt-forma form input, .kontakt-forma form textarea{
+    background: rgba(255, 255, 255, .08);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.kontakt-forma form input:focus, .kontakt-forma form textarea:focus{
+    outline: none;
+    background: rgba(255, 255, 255, .08);
+}
+
+.kontakt-forma form input::placeholder, .kontakt-forma form textarea::placeholder {
+    color: #99a1af;
+}
+
+.kontakt-forma form input{
+    color: #99a1af !important;
+}
+
+.kontakt-forma form button{
+    background-color: #615ffe;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.kontakt-forma form{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background: rgba(10,18,32,.95);
+    border-top: 1px solid rgba(86,156,214,.25);
+    min-height: 180px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer p{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.pdf{
+    display: flex;
+    color: #fff;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.pdf i{
+    transition: 0.3s;
+}
+
+.pdf:hover, .pdf:hover i{
+    color: #615ffe;
+}
+
