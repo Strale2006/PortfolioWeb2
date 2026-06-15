@@ -277,9 +277,30 @@
         flex-direction: column;
     }
 
+    .kontakt-info{
+        margin: auto;
+    }
+
     .footer{
         flex-direction: column;
         gap: 30px;
     }
+
+    .vestina{
+        min-width: 160px;
+    }
+
+    .obr-kartica{
+        width: auto;
+    }
+
+    .kontakt-sadrzaj{
+        margin: 10px auto;
+    }
+
+    .container{
+        padding: 0;
+    }
+
 
 }
