@@ -88,4 +88,19 @@
         align-items: center;
         gap: 40px;
     }
+
+    .grid-projekat{
+        grid-column: span 6;
+    }
+
+    .projekat-head img{
+        width: 100%;
+        height:220px;
+        object-fit:cover;
+        border-radius: 10px;
+    }
+
+    .projekti-grid{
+        width: 90%;
+    }
 }
