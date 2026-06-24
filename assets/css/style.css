@@ -123,6 +123,10 @@ main{
     border-radius: 16px;
 }
 
+.predstavljanje button:hover i{
+    color: rgb(97, 95, 257);
+}
+
 .kartica-koda {
     width: 100%;
     max-width: 450px;
